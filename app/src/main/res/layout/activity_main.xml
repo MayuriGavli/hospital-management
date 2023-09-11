@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_big2"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="327dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="267dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_removebg_preview" />
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/material_dynamic_neutral10"
+        android:text="Sign In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        android:textSize="20dp"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/material_dynamic_neutral10"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="259dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="70dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756"
+        app:srcCompat="@drawable/main_page_removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
